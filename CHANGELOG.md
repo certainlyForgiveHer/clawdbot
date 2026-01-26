@@ -56,6 +56,7 @@ Status: unreleased.
 - Security: pin npm overrides to keep tar@7.5.4 for install toolchains.
 - BlueBubbles: coalesce inbound URL link preview messages. (#1981) Thanks @tyler6204.
 - Cron: allow payloads containing "heartbeat" in event filter. (#2219) Thanks @dwfinkelstein.
+- Heartbeat: avoid unhandled rejection in wake handler. (#2243) Thanks @dlauer.
 - Agents: include memory.md when bootstrapping memory context. (#2318) Thanks @czekaj.
 - Telegram: wrap reasoning italics per line to avoid raw underscores. (#2181) Thanks @YuriNachos.
 - Voice Call: enforce Twilio webhook signature verification for ngrok URLs; disable ngrok free tier bypass by default.
